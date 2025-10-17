@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shorthand Properties</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Shorthand Properties Reference</h1>
+        
+        <table id="cssTable">
+            <thead>
+                <tr>
+                    <th>Shorthand Property</th>
+                    <th>Longhand Properties</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>margin</code></td>
+                    <td><code>margin-top</code>, <code>margin-right</code>, <code>margin-bottom</code>, <code>margin-left</code></td>
+                    <td><code>margin: 10px 20px 10px 20px;</code></td>
+                </tr>
+                <tr>
+                    <td><code>padding</code></td>
+                    <td><code>padding-top</code>, <code>padding-right</code>, <code>padding-bottom</code>, <code>padding-left</code></td>
+                    <td><code>padding: 5px 10px;</code></td>
+                </tr>
+                <tr>
+                    <td><code>border</code></td>
+                    <td><code>border-width</code>, <code>border-style</code>, <code>border-color</code></td>
+                    <td><code>border: 1px solid #000;</code></td>
+                </tr>
+                <tr>
+                    <td><code>border-radius</code></td>
+                    <td><code>border-top-left-radius</code>, <code>border-top-right-radius</code>, <code>border-bottom-right-radius</code>, <code>border-bottom-left-radius</code></td>
+                    <td><code>border-radius: 5px 10px;</code></td>
+                </tr>
+                <tr>
+                    <td><code>background</code></td>
+                    <td><code>background-color</code>, <code>background-image</code>, <code>background-repeat</code>, <code>background-position</code>, <code>background-size</code></td>
+                    <td><code>background: #fff url(image.png) no-repeat center;</code></td>
+                </tr>
+                <tr>
+                    <td><code>font</code></td>
+                    <td><code>font-style</code>, <code>font-weight</code>, <code>font-size</code>, <code>line-height</code>, <code>font-family</code></td>
+                    <td><code>font: italic bold 16px/1.5 Arial;</code></td>
+                </tr>
+                <tr>
+                    <td><code>flex</code></td>
+                    <td><code>flex-grow</code>, <code>flex-shrink</code>, <code>flex-basis</code></td>
+                    <td><code>flex: 1 1 auto;</code></td>
+                </tr>
+                <tr>
+                    <td><code>grid</code></td>
+                    <td><code>grid-template-rows</code>, <code>grid-template-columns</code>, <code>grid-auto-flow</code>, <code>grid-auto-rows</code>, <code>grid-auto-columns</code></td>
+                    <td><code>grid: 1fr / 1fr 1fr;</code></td>
+                </tr>
+                <tr>
+                    <td><code>box-shadow</code></td>
+                    <td>Combines offset-x, offset-y, blur-radius, spread-radius, color</td>
+                    <td><code>box-shadow: 2px 2px 5px rgba(0,0,0,0.2);</code></td>
+                </tr>
+                <tr>
+                    <td><code>text-shadow</code></td>
+                    <td>Combines offset-x, offset-y, blur-radius, color</td>
+                    <td><code>text-shadow: 1px 1px 2px #000;</code></td>
+                </tr>
+                <tr>
+                    <td><code>transform</code></td>
+                    <td>Combines multiple transform functions</td>
+                    <td><code>transform: rotate(45deg) scale(1.5);</code></td>
+                </tr>
+                <tr>
+                    <td><code>transition</code></td>
+                    <td><code>transition-property</code>, <code>transition-duration</code>, <code>transition-timing-function</code>, <code>transition-delay</code></td>
+                    <td><code>transition: all 0.3s ease 0s;</code></td>
+                </tr>
+                <tr>
+                    <td><code>animation</code></td>
+                    <td><code>animation-name</code>, <code>animation-duration</code>, <code>animation-timing-function</code>, <code>animation-delay</code>, <code>animation-iteration-count</code>, <code>animation-direction</code>, <code>animation-fill-mode</code>, <code>animation-play-state</code></td>
+                    <td><code>animation: slide 1s ease 0s 1 normal;</code></td>
+                </tr>
+                <tr>
+                    <td><code>outline</code></td>
+                    <td><code>outline-width</code>, <code>outline-style</code>, <code>outline-color</code></td>
+                    <td><code>outline: 2px solid blue;</code></td>
+                </tr>
+                <tr>
+                    <td><code>list-style</code></td>
+                    <td><code>list-style-type</code>, <code>list-style-position</code>, <code>list-style-image</code></td>
+                    <td><code>list-style: disc inside url(bullet.png);</code></td>
+                </tr>
+                <tr>
+                    <td><code>place-items</code></td>
+                    <td><code>align-items</code>, <code>justify-items</code></td>
+                    <td><code>place-items: center;</code></td>
+                </tr>
+                <tr>
+                    <td><code>place-content</code></td>
+                    <td><code>align-content</code>, <code>justify-content</code></td>
+                    <td><code>place-content: center start;</code></td>
+                </tr>
+                <tr>
+                    <td><code>gap</code></td>
+                    <td><code>row-gap</code>, <code>column-gap</code></td>
+                    <td><code>gap: 10px 20px;</code></td>
+                </tr>
+                <tr>
+                    <td><code>inset</code></td>
+                    <td><code>top</code>, <code>right</code>, <code>bottom</code>, <code>left</code></td>
+                    <td><code>inset: 10px 20px;</code></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="btn-container">
+            <button onclick="copyTableToClipboard()">Copy Table to Clipboard</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
